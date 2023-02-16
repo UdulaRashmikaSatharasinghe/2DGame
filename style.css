@@ -1,0 +1,89 @@
+.b{ 
+    background-image: url("background.png");
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    overflow-x: hidden;
+    position: absolute;
+    background-repeat: repeat-x;
+}
+.body{
+    margin: 0px;
+}
+.f{ 
+    position: absolute;
+    height: 140px;
+    margin-top: 560px;
+}
+.boy{
+    position: absolute;
+    height: 250px;
+    margin-top: 443px;
+}
+.score{
+    position: absolute;
+    font-size: 70px;
+    font-weight: bold;
+    font-family: Arial;
+    color: white;
+    margin-top: 10px;
+    margin-left: 90px;
+}
+.end{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    font-family: Arial;
+    color: white;
+    font-size: 100px;
+    font-weight: bold;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.8;
+    visibility:hidden;
+}
+
+.btn{
+    height: 60px;
+    width: 500px;
+    background-color: green;
+    color: white;
+    font-size: 25px;
+    font-family: Arial;
+    font-weight: bold;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;    
+}
+
+.ga{
+    font-size: 150px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    opacity: unset;
+}
+
+.coin{
+    width: 50px;
+    height: 50px;
+    margin-left: 20px;
+    margin-top: 25px;
+}
+
+.coinS1{
+    width: 58px;
+    height: 58px;
+    margin-left: -346px;
+    margin-top: -78px;
+}
+
+.coinS2{
+    width: 58px;
+    height: 58px;
+    margin-left: 275px;
+    margin-top: -60px;
+}

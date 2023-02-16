@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>2D GAME | Java Inst.</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" href="icon.png"/>
+    </head>
+
+    <body class="body" onkeyup="key(event);"> 
+
+        <div class="b" id="b">
+
+            <img class="boy" id="boy" src="Run (1).png"/> <!--Boy Image-->
+            <p class="score" id="score">0</p> <!--Score-->
+            <img class="coin" src="coin.png"> <!--Coin-->
+
+        </div>
+
+        <div class="end" id="end">
+            <div class="ga">GAME OVER</div> <!--Game Over-->
+            <div class="YS">Your Score</div> <!--Score-->
+            <img class="coinS1" src="coin.png"> <!--Your Score (Your) - O -->
+            <img class="coinS2" src="coin.png"> <!--Your Score (Score) - 0 -->
+            <div id="current_score">0</div> <!--Try Again | Screen Current Score-->
+            <button class="btn" onclick="re();">Try Again</button> <!--Try Again Button-->
+        </div>
+        
+
+        <script src="script.js"></script>
+    </body>
+    
+</html>
